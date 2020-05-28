@@ -30,7 +30,7 @@ This is to provide small example to create infrastructure on Azure with terrafor
 
 Instead of creating variables.tf file we will use above created key/values as variables in terraform code. 
 
-3. Download the tf files from this repo and execute terraform commands
+3. Download the main.tf files from this repo and execute terraform commands
 
    `terraform init`
    `terraform plan`
