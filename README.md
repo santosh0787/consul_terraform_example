@@ -1,6 +1,8 @@
 # consul terraform example
 This is to provide small example to create infrastructure on Azure with terraform by reading variables from Consul and saving its state in Consul.
 
+In this example we will create an empty availabilty set in azure.
+
 **Prerequisite:**
 
 1) Account in Azure portal. Create test resource group.3. 
@@ -28,7 +30,6 @@ This is to provide small example to create infrastructure on Azure with terrafor
    - 'as-name' : Availabilty set name.
    - 'rg'      : Resource group name
 
-Instead of creating variables.tf file we will use above created key/values as variables in terraform code. 
 
 3. Download the main.tf files from this repo and execute terraform commands
 
