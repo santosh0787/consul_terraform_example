@@ -1,5 +1,5 @@
 # consul terraform example
-This is to provide small example to create infrastructure on Azure with terraform by saving its state in Consul and getting variables from Consul.
+This is to provide small example to create infrastructure on Azure with terraform by reading variables from Consul and saving its state in Consul.
 
 **Prerequisite:**
 
@@ -36,4 +36,8 @@ Instead of creating variables.tf file we will use above created key/values as va
    `terraform plan`
    `terraform apply`
    
-If you goto the Consul URL, you will see terraform state key/value will be created. 
+ Goto the Consul URL, you will see terraform state key/value will be created. 
+ If you close the Consul session data will be lost.
+
+
+This can be extended with Consul Server-Agent mode to make data persistent and enabling ACL for secure access.
