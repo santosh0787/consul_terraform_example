@@ -31,11 +31,13 @@ In this example we will create an empty availabilty set in azure.
    - 'rg'      : Resource group name
 
 
-3. Download the main.tf files from this repo and execute terraform commands
+3. Download the main.tf and variables.tf files from this repo and execute terraform commands
 
-   `terraform init`
-   `terraform plan`
-   `terraform apply`
+   `terraform init` 
+   
+   `terraform plan` 
+   
+   `terraform apply` 
    
  Goto the Consul URL, you will see terraform state key/value will be created. 
  If you close the Consul session data will be lost.
