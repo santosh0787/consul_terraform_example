@@ -8,7 +8,7 @@ provider "azurerm" {
 }
 
 
-
+#create as
 resource "azurerm_availability_set" "kube_as" {
 
   resource_group_name = data.consul_keys.app.var.rg_name
