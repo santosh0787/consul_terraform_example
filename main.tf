@@ -11,9 +11,9 @@ provider "azurerm" {
 
 resource "azurerm_availability_set" "kube_as" {
 
-  resource_group_name = "${data.consul_keys.app.var.rg_name}"
+  resource_group_name = data.consul_keys.app.var.rg_name
   location            = "westeurope"
-  name =  "${data.consul_keys.app.var.as_name}"
+  name =  data.consul_keys.app.var.as_name
 
 }
  
