@@ -5,7 +5,7 @@ In this example we will create an empty availabilty set in azure.
 
 **Prerequisite:**
 
-1) Account in Azure portal. Create test resource group.3. 
+1) Account in Azure portal. Create test resource group.
 
 2) Install Consul
 (https://www.consul.io/docs/install)
