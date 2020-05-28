@@ -17,7 +17,10 @@ In this example we will create an empty availabilty set in azure.
 
 **Procedure**
 
-1. Start the consul in dev mode. Since this is for test purpose we will start in "-dev" mode. 
+1. For convenient purpose we will authorize terraform with azure using azure cli.
+
+    `az login`
+2. Start the consul in dev mode. Since this is for test purpose we will start in "-dev" mode. 
 
    `consul agent -dev` 
 
@@ -26,13 +29,13 @@ In this example we will create an empty availabilty set in azure.
 
    Open the Consul URL http://localhost:8500/
    
-2. From top menu click __Key/value__, create 'variables' folder. In 'variables' folder create key-values called 
+3. From top menu click __Key/value__, create 'variables' folder. In 'variables' folder create key-values called 
 
    - 'as-name' : Availabilty set name.
    - 'rg'      : Resource group name
 
 
-3. Download the main.tf and variables.tf files from this repo and execute terraform commands
+4. Download the main.tf and variables.tf files from this repo and execute terraform commands
 
    `terraform init` 
    
