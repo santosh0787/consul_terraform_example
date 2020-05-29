@@ -35,7 +35,7 @@ In this example we will create an empty availabilty set in azure.
    - 'rg'      : Resource group name
 
 
-4. Download the main.tf and variables.tf files from this repo and execute terraform commands
+4. Download the main.tf and variables.tf files from this repo. Provide your subscription and tenant id. Execute terraform commands
 
    `terraform init` 
    
