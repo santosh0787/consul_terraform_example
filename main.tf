@@ -1,6 +1,6 @@
 
 provider "azurerm" {
-  # whilst the `version` attribute is optional, we recommend pinning to a given version of the Provider
+  # whilst the `version` attribute is optional
   version = "=2.0.0"
   subscription_id = "xxxxxxxxx"
   tenant_id = "xxxxxxx"
