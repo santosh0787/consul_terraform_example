@@ -1,4 +1,5 @@
-#Azure with consul and terraform example
+# Azure with consul and terraform example
+
 This is to provide small example to create infrastructure on Azure with terraform by reading variables from Consul and saving its state in Consul.
 
 We are using Consul as key/value store only.
