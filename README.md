@@ -26,7 +26,7 @@ In this example we will create an empty availabilty set in azure.
    `consul agent -dev` 
 
    Terraform state and variables are not stored permanently. Once consul is stopped data is lost. Open the terminal session
-   untill this lesson is completed.
+   until this lesson is completed.
 
    Open the Consul URL http://localhost:8500/
    
