@@ -1,3 +1,4 @@
+#Since Consul is installed in local desktop, localhost will be address of Consul and default port running is 8500
 
 terraform {
   backend "consul" {
